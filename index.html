@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+  <title>Todo List</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <h1>Todo List</h1>
+
+  <div id="taskForm">
+    <label for="taskTitle">Başlık:</label>
+    <input id="taskTitle" type="text">
+    <br>
+    <label for="taskDescription">Görev:</label>
+    <textarea id="taskDescription"></textarea>
+    <br>
+    <label for="taskDate">Tarih:</label>
+    <input id="taskDate" type="date">
+    <br>
+    <button onclick="addTask()">Ekle</button>
+  </div>
+
+  <div id="taskList">
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
